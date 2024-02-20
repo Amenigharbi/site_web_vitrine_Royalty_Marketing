@@ -926,11 +926,11 @@ body {
   grid-template-columns: repeat(
     3,
     minmax(200px, 1fr)
-  ); /* Trois photos par ligne */
-  grid-auto-rows: 300px; /* Hauteur des lignes */
-  gap: 20px; /* Espacement entre les lignes et les colonnes */
-  justify-items: center; /* Centrer les éléments horizontalement */
-  align-content: space-between; /* Espacement entre les lignes */
+  ); 
+  grid-auto-rows: 300px; 
+  gap: 20px; 
+  justify-items: center; 
+  align-content: space-between; 
 }
 
 .list .item img {
@@ -1027,11 +1027,11 @@ body {
 }
 
 .ftco-footer {
-  text-align: center; /* Centrer le contenu du pied de page */
+  text-align: center;
 }
 
 .white-text {
-  color: white; /* Appliquer la couleur blanche */
+  color: white; 
 }
 
 .con {
@@ -1135,7 +1135,7 @@ body {
   padding: 25px 30px;
   text-transform: uppercase;
   letter-spacing: 4px;
-  color: #199580;
+  color: #002896;
   font-size: 1.2rem;
   font-weight: bold;
   transition: 0.5s;
@@ -1144,9 +1144,9 @@ body {
 }
 
 .con .card .content  a {
-  background-color: #199580;
+  background-color: #002896;
   color: #000;
-  box-shadow: 0 0 5px #199580, 0 0 25px #199580, 0 0 50px #199580,
-    0 0 200px #199580;
+  box-shadow: 0 0 5px #002896, 0 0 25px #002896, 0 0 50px #002896,
+    0 0 200px #002896;
   -webkit-box-reflect: below 1px linear-gradient(transparent, #000500);
 }
